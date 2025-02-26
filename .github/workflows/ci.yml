@@ -8,4 +8,4 @@ jobs:
       - name: Build Docker image
         run: docker build -t todo-app .
       - name: Run tests
-        run: ./test.sh
+        run: ./test.test_app.py
